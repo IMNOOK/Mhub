@@ -8,7 +8,7 @@ class Content extends React.Component{
             <Switch>
                 {routes.map((route, index)=>(
                     <Route key={index} path={route.path} exact={route.exact} component = {route.component}/>
-        ))}
+                ))}
             </Switch>
         );
     }
